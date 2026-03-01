@@ -5,7 +5,7 @@ print("helo")
 for i in range(10):
     print(i)
 
-
+# Import random module for generating random numbers
 import random
 
 print ("Random number between 1 and 100:", random.randint(1, 100))
