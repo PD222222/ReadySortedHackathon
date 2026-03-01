@@ -1,10 +1,10 @@
+import random
+
 print("helo")
 
 for i in range(10):
     print(i)
 
-
-import random
 
 # configuration
 rows = 5
