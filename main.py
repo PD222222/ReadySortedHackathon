@@ -6,6 +6,10 @@ for i in range(10):
 
 import random
 
+print ("Random number between 1 and 100:", random.randint(1, 100))
+for i in range(5):
+    print ("Random number between 1 and 100:", random.randint(1, 100))
+
 # configuration
 rows = 5
 cols = 7
