@@ -1,3 +1,5 @@
+import random
+
 print("helo")
 
 for i in range(10):
