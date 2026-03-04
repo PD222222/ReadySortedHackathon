@@ -1,27 +1,27 @@
 [
     {
-        "candidateId": "P58",
+        "candidateId": "P45",
         "traits": {
-            "caffeine": false,
-            "carries_laptop": false,
-            "commute_type": "bus",
-            "eligibility": false,
             "eye_color": "brown",
-            "eyebrow_style": "arched",
-            "gaming": true,
-            "group_project": false,
-            "has_beard": false,
-            "has_freckles": true,
+            "food_pref": "vegan",
+            "group_project": true,
+            "hair_length": "short",
+            "has_dimples": true,
+            "has_freckles": false,
             "has_moustache": false,
-            "keyboard_layout": "Other",
+            "hat_type": "beanie",
             "lab_user": false,
-            "os_primary": "Linux",
-            "primary_style": "alt",
-            "sleep_pattern": "nightowl",
-            "sport": false,
+            "library_frequency": "medium",
+            "password_manager": false,
+            "pet_person": true,
+            "phone_os": "other",
+            "reading": true,
+            "smile": true,
+            "timetable_morning": true,
+            "travel": true,
             "wears_necklace": true,
-            "weekend_style": "chill",
-            "year_group": 3
+            "wears_watch": true,
+            "weekend_style": "chill"
         }
     }
 ]

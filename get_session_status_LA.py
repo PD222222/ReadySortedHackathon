@@ -2,7 +2,7 @@ import requests
 import json
 
 BASE_URL = "https://guesswhoservice-cjrwkt3ccq-nw.a.run.app"
-SESSION = "s_f6f28223"   # <-- PUT YOUR REAL TEAM ID HERE
+SESSION = "s_f6f28223"
 
 
 
