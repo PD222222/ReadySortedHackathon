@@ -3,7 +3,7 @@ from collections import defaultdict
 from math import log2
 
 # Load board from file
-with open("board_s_f6f28223.json", "r") as f:
+with open("remaining_candidates.json", "r") as f:
     players = json.load(f)
 
 def calculate_entropy(value_counts, total):

@@ -31,8 +31,23 @@ print(f"Starting with {len(remaining)} candidates.")
 remaining = [c for c in remaining if c['traits'].get("commute_type") == "bus"]
 print(f"After bus filter: {len(remaining)} left.")
 
+remaining = [c for c in remaining if c['traits'].get("hair_length") != "medium"]
+print(f"After hair length filter: {len(remaining)} left.")
+
+remaining = [c for c in remaining if c['traits'].get("bottom_type") != "jeans"]
+print(f"After bottom type filter: {len(remaining)} left.")
+
+remaining = [c for c in remaining if c['traits'].get("eyebrow_style") != "thick"]
+print(f"After eyebrow style filter: {len(remaining)} left.")
+
+remaining = [c for c in remaining if c['traits'].get("carries_laptop") == False]
+print(f"After carries laptop filter: {len(remaining)} left.")
 
 print(remaining)
+
+
+
+
 
 def save_state(candidates, filename="remaining_candidates.json"):
     with open(filename, 'w') as f:
@@ -52,7 +67,7 @@ base_url = "https://guesswhoservice-cjrwkt3ccq-nw.a.run.app"
 session_id = "s_f6f28223"  
 
 
-question_id = "T39"
+question_id = "T02"
 
 
 
@@ -60,7 +75,7 @@ question_id = "T39"
 
 
 def ask_questions2(base_url, session_id):
-    headers = {"questionId": "T39", "value": "bus"}
+    headers = {"questionId": "T28"}
 
     response = requests.post(
         f"{base_url}/sessions/{session_id}/ask",
@@ -76,5 +91,31 @@ def ask_questions2(base_url, session_id):
 
 # ASK QUESTIONS HEREERERER
 
+#print("\n\n\n\nAsking questions...\n\n\n\n")
 #question_result = ask_questions2(base_url, session_id)
 #print(question_result)
+
+
+def submit_guess(base_url, session_id, candidate_id):
+
+    
+    # The API expects the candidateId in the body
+    payload = {
+        "candidateId": candidate_id
+    }
+
+    response = requests.post(
+        f"{base_url}/sessions/{session_id}/guess",
+        json=payload
+    )
+
+    if response.status_code != 200:
+        print("Error submitting guess:", response.status_code)
+        print(response.text)
+        return None
+
+    return response.json()
+
+#print("\n\n\n\nSubmitting guess...\n\n\n\n")
+#guess_result = submit_guess(base_url, session_id, 'P58')
+#print(guess_result)
