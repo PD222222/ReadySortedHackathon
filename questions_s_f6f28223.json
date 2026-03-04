@@ -1,0 +1,322 @@
+[
+    {
+        "questionId": "T01",
+        "traitKey": "hair_color",
+        "type": "enum"
+    },
+    {
+        "questionId": "T02",
+        "traitKey": "hair_length",
+        "type": "enum"
+    },
+    {
+        "questionId": "T03",
+        "traitKey": "eye_color",
+        "type": "enum"
+    },
+    {
+        "questionId": "T04",
+        "traitKey": "wears_glasses",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T05",
+        "traitKey": "has_beard",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T06",
+        "traitKey": "has_moustache",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T07",
+        "traitKey": "has_freckles",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T08",
+        "traitKey": "has_dimples",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T09",
+        "traitKey": "skin_tone",
+        "type": "enum"
+    },
+    {
+        "questionId": "T10",
+        "traitKey": "face_shape",
+        "type": "enum"
+    },
+    {
+        "questionId": "T11",
+        "traitKey": "eyebrow_style",
+        "type": "enum"
+    },
+    {
+        "questionId": "T12",
+        "traitKey": "smile",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T13",
+        "traitKey": "top_color",
+        "type": "enum"
+    },
+    {
+        "questionId": "T14",
+        "traitKey": "wears_hoodie",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T15",
+        "traitKey": "wears_jacket",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T16",
+        "traitKey": "wears_shirt_collar",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T17",
+        "traitKey": "bottom_type",
+        "type": "enum"
+    },
+    {
+        "questionId": "T18",
+        "traitKey": "shoe_type",
+        "type": "enum"
+    },
+    {
+        "questionId": "T19",
+        "traitKey": "hat_type",
+        "type": "enum"
+    },
+    {
+        "questionId": "T20",
+        "traitKey": "pattern",
+        "type": "enum"
+    },
+    {
+        "questionId": "T21",
+        "traitKey": "primary_style",
+        "type": "enum"
+    },
+    {
+        "questionId": "T22",
+        "traitKey": "wears_uniform",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T23",
+        "traitKey": "wears_watch",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T24",
+        "traitKey": "wears_ring",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T25",
+        "traitKey": "wears_necklace",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T26",
+        "traitKey": "wears_earrings",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T27",
+        "traitKey": "carries_backpack",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T28",
+        "traitKey": "carries_laptop",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T29",
+        "traitKey": "phone_os",
+        "type": "enum"
+    },
+    {
+        "questionId": "T30",
+        "traitKey": "headphone_type",
+        "type": "enum"
+    },
+    {
+        "questionId": "T31",
+        "traitKey": "year_group",
+        "type": "enum"
+    },
+    {
+        "questionId": "T32",
+        "traitKey": "faculty",
+        "type": "enum"
+    },
+    {
+        "questionId": "T33",
+        "traitKey": "timetable_morning",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T34",
+        "traitKey": "lab_user",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T35",
+        "traitKey": "group_project",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T36",
+        "traitKey": "preferred_editor",
+        "type": "enum"
+    },
+    {
+        "questionId": "T37",
+        "traitKey": "os_primary",
+        "type": "enum"
+    },
+    {
+        "questionId": "T38",
+        "traitKey": "attends_society",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T39",
+        "traitKey": "commute_type",
+        "type": "enum"
+    },
+    {
+        "questionId": "T40",
+        "traitKey": "library_frequency",
+        "type": "enum"
+    },
+    {
+        "questionId": "T41",
+        "traitKey": "caffeine",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T42",
+        "traitKey": "part_time_job",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T43",
+        "traitKey": "favorite_language",
+        "type": "enum"
+    },
+    {
+        "questionId": "T44",
+        "traitKey": "git_user",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T45",
+        "traitKey": "cloud_interest",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T46",
+        "traitKey": "ai_interest",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T47",
+        "traitKey": "gaming",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T48",
+        "traitKey": "keyboard_layout",
+        "type": "enum"
+    },
+    {
+        "questionId": "T49",
+        "traitKey": "two_factor",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T50",
+        "traitKey": "password_manager",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T51",
+        "traitKey": "sport",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T52",
+        "traitKey": "music_genre",
+        "type": "enum"
+    },
+    {
+        "questionId": "T53",
+        "traitKey": "food_pref",
+        "type": "enum"
+    },
+    {
+        "questionId": "T54",
+        "traitKey": "sleep_pattern",
+        "type": "enum"
+    },
+    {
+        "questionId": "T55",
+        "traitKey": "pet_person",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T56",
+        "traitKey": "coffee_order",
+        "type": "enum"
+    },
+    {
+        "questionId": "T57",
+        "traitKey": "weekend_style",
+        "type": "enum"
+    },
+    {
+        "questionId": "T58",
+        "traitKey": "travel",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T59",
+        "traitKey": "reading",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T60",
+        "traitKey": "social_media",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T61",
+        "traitKey": "training_provider",
+        "type": "enum"
+    },
+    {
+        "questionId": "T62",
+        "traitKey": "id_verified",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T63",
+        "traitKey": "eligibility",
+        "type": "boolean"
+    },
+    {
+        "questionId": "T64",
+        "traitKey": "risk_band",
+        "type": "enum"
+    }
+]
