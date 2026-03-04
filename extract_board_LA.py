@@ -32,9 +32,15 @@ remaining = [c for c in remaining if c['traits'].get("commute_type") == "bus"]
 print(f"After bus filter: {len(remaining)} left.")
 
 
+print(remaining)
 
+def save_state(candidates, filename="remaining_candidates.json"):
+    with open(filename, 'w') as f:
+        # indent=4 makes it readable for humans
+        json.dump(candidates, f, indent=4)
+    print(f"Successfully saved {len(candidates)} candidates to {filename}")
 
-
+save_state(remaining)
 
 
 
